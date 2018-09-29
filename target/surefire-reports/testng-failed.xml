@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.bookmyroom.testng.BookMyRoomTest">
+        <methods>
+          <include name="guestTest" invocation-numbers="0 4"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="confirmBookingTest" invocation-numbers="1 3"/>
+          <include name="signUpTest" invocation-numbers="4"/>
+          <include name="afterTest"/>
+          <include name="searchTest" invocation-numbers="0 3 4"/>
+        </methods>
+      </class> <!-- com.bookmyroom.testng.BookMyRoomTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

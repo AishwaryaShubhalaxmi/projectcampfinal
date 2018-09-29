@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="168.418" tests="26" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\OxygenWorkspace\BMR6"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\OxygenWorkspace\BMR6"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\M1047105\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\OxygenWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3001929217381156474.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_102/bin/server;C:/Program Files/Java/jre1.8.0_102/bin;C:/Program Files/Java/jre1.8.0_102/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Application Virtualization Client;D:\Programs\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\apache\maven\apache-maven-3.5.2\bin;D:\Programs\Git\cmd;C:\apache\maven\apache-maven-3.5.2\bin;D:\Softwares\sonar-runner-dist-2.4\sonar-runner-2.4\bin;D:\Softwares\apache-ant-1.10.5-bin\apache-ant-1.10.5\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\M1047105\AppData\Local\Microsoft\WindowsApps;;D:\Programs\Microsoft VS Code\bin;C:\Users\M1047105\AppData\Roaming\npm;D:\Softwares\eclipse-dsl-oxygen-M6-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\M1047105"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="M1047105"/>
+    <property name="java.class.path" value="C:\apache\maven\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\apache\maven\apache-maven-3.5.2\conf\settings.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache\maven\apache-maven-3.5.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="confirmBookingTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="54.942"/>
+  <testcase name="confirmBookingTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="34.835">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //mat-grid-tile[1]//div[@id=&apos;bookNow&apos;]//button[@color=&apos;primary&apos;] (tried for 3 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //mat-grid-tile[1]//div[@id='bookNow']//button[@color='primary'] (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.ConfirmBooking.confirmBooking(ConfirmBooking.java:49)
+	at com.bookmyroom.testng.BookMyRoomTest.confirmBookingTest(BookMyRoomTest.java:128)
+</failure>
+    <system-out><![CDATA[2018-09-24 06:14:55 DEBUG MyListener:24 - on test start
+2018-09-24 06:14:55 INFO  BookMyRoomTest:124 - ------ Search - TestCase_Confirm_2 -------
+xxxxxxxxxxxxx ConfirmBooking xxxxxxxx
+Inside Get Excel:BookMyRoom2.xlsxConfirm
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@254449bb
+----- Keyword: search ------
+------ Search in Confirm Booking ---------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@188598ad
+----- Keyword: login ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxLogin
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@1682c08c
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[contains(text(),' Login')]
+Clicked!
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='UserName']
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='Password']
+----- Keyword: click ------
+Click on: //button[@class='btn btn-outline-success']
+Clicked!
+Click on: //button[@class='swal2-confirm swal2-styled']
+Clicked!
+----- Keyword: click ------
+Click on: //span[@class='mat-button-wrapper']
+Clicked!
+----- Keyword: enterText ------
+--- In City ---
+Enter text: name  hotelCity
+----- Keyword: enterText ------
+Enter text: name  hotelFromDate
+----- Keyword: enterText ------
+Enter text: name  hotelToDate
+----- Keyword: select ------
+----- Keyword: click ------
+Click on: Search
+Clicked!
+----- Keyword: click ------
+Click on: //mat-grid-tile[1]//div[@id='bookNow']//button[@color='primary']
+2018-09-24 06:15:28 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="confirmBookingTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="43.276"/>
+  <testcase name="confirmBookingTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="2,718.382">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class=&apos;mat-button-wrapper&apos;] (tried for 3 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;G1C2ML15656&apos;, ip: &apos;172.17.124.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}&#10;Session ID: f5773077eb280e3bc5571b3b5058530e" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='mat-button-wrapper'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:50)
+	at com.bookmyroom.pages.ConfirmBooking.confirmBooking(ConfirmBooking.java:43)
+	at com.bookmyroom.testng.BookMyRoomTest.confirmBookingTest(BookMyRoomTest.java:128)
+</failure>
+    <system-out><![CDATA[2018-09-24 06:16:13 DEBUG MyListener:24 - on test start
+2018-09-24 06:16:13 INFO  BookMyRoomTest:124 - ------ Search - TestCase_Confirm_4 -------
+xxxxxxxxxxxxx ConfirmBooking xxxxxxxx
+Inside Get Excel:BookMyRoom2.xlsxConfirm
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@51172948
+----- Keyword: search ------
+------ Search in Confirm Booking ---------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@49353d43
+----- Keyword: login ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxLogin
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@2a73a64f
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[contains(text(),' Login')]
+Clicked!
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='UserName']
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='Password']
+----- Keyword: click ------
+Click on: //button[@class='btn btn-outline-success']
+Clicked!
+Click on: //button[@class='swal2-confirm swal2-styled']
+Clicked!
+----- Keyword: click ------
+Click on: //span[@class='mat-button-wrapper']
+2018-09-24 07:01:27 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="confirmBookingTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="5,316.868"/>
+  <testcase name="guestTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="26.48">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.guestSearch(SearchHotels.java:148)
+	at com.bookmyroom.pages.GuestMode.guestSearch(GuestMode.java:45)
+	at com.bookmyroom.testng.BookMyRoomTest.guestTest(BookMyRoomTest.java:149)
+</failure>
+    <system-out><![CDATA[Inside Get Excel:BookMyRoom2.xlsxGuestData
+Rows: 5Cols: 6
+Data: [[Ljava.lang.String;@39eea4f6
+2018-09-24 08:30:08 DEBUG MyListener:24 - on test start
+2018-09-24 08:30:08 INFO  BookMyRoomTest:145 - ------ Search - TestCase_Search_1 -------
+Inside Get Excel:BookMyRoom2.xlsxGuest
+Rows: 3Cols: 6
+Data: [[Ljava.lang.String;@43069adf
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[text()='Guest']
+Clicked!
+----- Keyword: search ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@f1d5f3
+----- Keyword: enterText ------
+--- In City ---
+Enter text: name  hotelCity
+----- Keyword: enterText ------
+Enter text: name  hotelFromDate
+----- Keyword: enterText ------
+Enter text: name  hotelToDate
+----- Keyword: select ------
+----- Keyword: click ------
+Click on: Search
+Clicked!
+----- Keyword: verifyPresence ------
+2018-09-24 08:30:33 ERROR Reusable:164 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-grid-tile//mat-card-title"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+*** Element info: {Using=xpath, value=//mat-grid-tile//mat-card-title}
+-------- Comparing2: Invalid Check In / Check Out Date and Courtyard by Marriott---------
+2018-09-24 08:30:33 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="guestTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="24.793"/>
+  <testcase name="guestTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="24.712"/>
+  <testcase name="guestTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="25.63"/>
+  <testcase name="guestTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="24.737">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.guestSearch(SearchHotels.java:148)
+	at com.bookmyroom.pages.GuestMode.guestSearch(GuestMode.java:45)
+	at com.bookmyroom.testng.BookMyRoomTest.guestTest(BookMyRoomTest.java:149)
+</failure>
+    <system-out><![CDATA[2018-09-24 08:31:50 DEBUG MyListener:24 - on test start
+2018-09-24 08:31:50 INFO  BookMyRoomTest:145 - ------ Search - TestCase_Search_5 -------
+Inside Get Excel:BookMyRoom2.xlsxGuest
+Rows: 3Cols: 6
+Data: [[Ljava.lang.String;@3d49b00e
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[text()='Guest']
+Clicked!
+----- Keyword: search ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@24a6655d
+----- Keyword: enterText ------
+--- In City ---
+Enter text: name  hotelCity
+----- Keyword: enterText ------
+Enter text: name  hotelFromDate
+----- Keyword: enterText ------
+Enter text: name  hotelToDate
+----- Keyword: select ------
+----- Keyword: click ------
+Click on: Search
+Clicked!
+----- Keyword: verifyPresence ------
+2018-09-24 08:32:13 ERROR Reusable:164 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-grid-tile//mat-card-title"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+*** Element info: {Using=xpath, value=//mat-grid-tile//mat-card-title}
+-------- Comparing2: Invalid Check In / Check Out Date and CheckIn Date cannot be prior to CheckOut Date---------
+2018-09-24 08:32:13 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="18.293"/>
+  <testcase name="loginTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="20.435"/>
+  <testcase name="loginTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="20.563"/>
+  <testcase name="loginTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="20.879"/>
+  <testcase name="loginTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="20.414"/>
+  <testcase name="searchTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="37.839">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:82)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+</failure>
+    <system-out><![CDATA[Inside Get Excel:BookMyRoom2.xlsxSearchData
+Rows: 5Cols: 6
+Data: [[Ljava.lang.String;@722479ba
+2018-09-24 08:33:56 DEBUG MyListener:24 - on test start
+2018-09-24 08:33:56 INFO  BookMyRoomTest:104 - ------ Search - TestCase_Search_1 -------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@12734eb5
+----- Keyword: login ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxLogin
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@23f7ed9d
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[contains(text(),' Login')]
+Clicked!
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='UserName']
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='Password']
+----- Keyword: click ------
+Click on: //button[@class='btn btn-outline-success']
+Clicked!
+Click on: //button[@class='swal2-confirm swal2-styled']
+Clicked!
+----- Keyword: click ------
+Click on: //span[@class='mat-button-wrapper']
+Clicked!
+----- Keyword: enterText ------
+--- In City ---
+Enter text: name  hotelCity
+----- Keyword: enterText ------
+Enter text: name  hotelFromDate
+----- Keyword: enterText ------
+Enter text: name  hotelToDate
+----- Keyword: select ------
+----- Keyword: click ------
+Click on: Search
+Clicked!
+----- Keyword: verifyPresence ------
+2018-09-24 08:34:32 ERROR Reusable:164 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-grid-tile//mat-card-title"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+*** Element info: {Using=xpath, value=//mat-grid-tile//mat-card-title}
+-------- Comparing2: Invalid Check In / Check Out Date and Hotel Bhoomi Residency ---------
+2018-09-24 08:34:32 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="searchTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="36.689"/>
+  <testcase name="searchTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="35.55"/>
+  <testcase name="searchTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="19.875">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class=&apos;mat-button-wrapper&apos;] (tried for 3 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;G1C2ML15656&apos;, ip: &apos;172.17.124.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}&#10;Session ID: f5773077eb280e3bc5571b3b5058530e" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='mat-button-wrapper'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:50)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+</failure>
+    <system-out><![CDATA[2018-09-24 08:35:46 DEBUG MyListener:24 - on test start
+2018-09-24 08:35:46 INFO  BookMyRoomTest:104 - ------ Search - TestCase_Search_4 -------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@268f9a04
+----- Keyword: login ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxLogin
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@5a6528fa
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[contains(text(),' Login')]
+Clicked!
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='UserName']
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='Password']
+----- Keyword: click ------
+Click on: //button[@class='btn btn-outline-success']
+Clicked!
+Click on: //button[@class='swal2-confirm swal2-styled']
+Clicked!
+----- Keyword: click ------
+Click on: //span[@class='mat-button-wrapper']
+2018-09-24 08:36:05 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="searchTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="36.637">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:82)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+</failure>
+    <system-out><![CDATA[2018-09-24 08:36:06 DEBUG MyListener:24 - on test start
+2018-09-24 08:36:06 INFO  BookMyRoomTest:104 - ------ Search - TestCase_Search_5 -------
+Inside Get Excel:BookMyRoom2.xlsxSearch
+Rows: 8Cols: 6
+Data: [[Ljava.lang.String;@2ffa1f25
+----- Keyword: login ------
+------ Login ---------
+Inside Get Excel:BookMyRoom2.xlsxLogin
+Rows: 6Cols: 6
+Data: [[Ljava.lang.String;@316a1241
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[contains(text(),' Login')]
+Clicked!
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='UserName']
+----- Keyword: enterText ------
+Enter text: xpath  //div[@_ngcontent-c4][@class='form-group']//input[@class='form-control ng-untouched ng-pristine ng-invalid'][@name='Password']
+----- Keyword: click ------
+Click on: //button[@class='btn btn-outline-success']
+Clicked!
+Click on: //button[@class='swal2-confirm swal2-styled']
+Clicked!
+----- Keyword: click ------
+Click on: //span[@class='mat-button-wrapper']
+Clicked!
+----- Keyword: enterText ------
+--- In City ---
+Enter text: name  hotelCity
+----- Keyword: enterText ------
+Enter text: name  hotelFromDate
+----- Keyword: enterText ------
+Enter text: name  hotelToDate
+----- Keyword: select ------
+----- Keyword: click ------
+Click on: Search
+Clicked!
+----- Keyword: verifyPresence ------
+2018-09-24 08:36:41 ERROR Reusable:164 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-grid-tile//mat-card-title"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+*** Element info: {Using=xpath, value=//mat-grid-tile//mat-card-title}
+-------- Comparing2: Invalid Check In / Check Out Date and CheckIn Date cannot be prior to CheckOut Date---------
+2018-09-24 08:36:41 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="signUpTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="30.864"/>
+  <testcase name="signUpTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="31.123"/>
+  <testcase name="signUpTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="32.143"/>
+  <testcase name="signUpTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="32.203"/>
+  <testcase name="signUpTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="31.89">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SignUpPage.signUp(SignUpPage.java:89)
+	at com.bookmyroom.testng.BookMyRoomTest.signUpTest(BookMyRoomTest.java:64)
+</failure>
+    <system-out><![CDATA[2018-09-24 08:38:49 DEBUG MyListener:24 - on test start
+2018-09-24 08:38:49 INFO  BookMyRoomTest:59 - ------ SignUp - TestCase_SignUp_5 -------
+Driver in AppTest: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+Inside Get Excel:BookMyRoom2.xlsxSignUp
+Rows: 11Cols: 6
+Data: [[Ljava.lang.String;@18204075
+In signUpPage: BookMyRoom2.xlsx
+----- Keyword: navigateTo ------
+Driver in SignUp: ChromeDriver: chrome on XP (f5773077eb280e3bc5571b3b5058530e)
+----URL: https://bookmyroomangulardevdotnet.azurewebsites.net
+Navigate to:https://bookmyroomangulardevdotnet.azurewebsites.net
+----- Keyword: click ------
+Click on: //button[contains(text(),' Sign Up')]
+Clicked!
+----- Keyword: enterText ------
+Enter text: name  Name
+----- Keyword: enterText ------
+Enter text: name  UserName
+----- Keyword: enterText ------
+Enter text: name  Email
+----- Keyword: enterText ------
+Enter text: name  Password
+----- Keyword: select ------
+----- Keyword: enterText ------
+Enter text: name  Age
+----- Keyword: enterText ------
+Enter text: name  mobileNo
+----- Keyword: click ------
+Click on: //button[@type='submit']
+Clicked!
+----- Keyword: verifyPresence ------
+2018-09-24 08:39:20 ERROR Reusable:164 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[text()='Registration Successful']"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+*** Element info: {Using=xpath, value=//strong[text()='Registration Successful']}
+-------- Comparing2: Oops... and Oops…---------
+2018-09-24 08:39:20 DEBUG MyListener:40 - on test failure
+]]></system-out>
+  </testcase>
+  <testcase name="signUpTest" classname="com.bookmyroom.testng.BookMyRoomTest" time="30.715"/>
+</testsuite>

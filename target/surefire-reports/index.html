@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\OxygenWorkspace\BMR6\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 8 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="confirmBookingTest(TestCase_Confirm_4, Chennai, 09/24, 09/26, Single-AC, Booking is Confirmed)">confirmBookingTest(TestCase_Confirm_4, Chennai, 09/24, 09/26, Single-AC, Booking is Confirmed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="confirmBookingTest(TestCase_Confirm_2, Mumbai, 09/24, 09/25, Single-AC, Booking is Confirmed)">confirmBookingTest(TestCase_Confirm_2, Mumbai, 09/24, 09/25, Single-AC, Booking is Confirmed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="guestTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Courtyard by Marriott)">guestTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Courtyard by Marriott)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="guestTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)">guestTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="searchTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)">searchTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="searchTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Hotel Bhoomi Residency )">searchTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Hotel Bhoomi Residency )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="searchTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)">searchTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="signUpTest(TestCase_SignUp_5, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa5, Qwerty#123, Male, 22, 9490222395,...)">signUpTest(TestCase_SignUp_5, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa5, Qwerty#123, Male, 22, 9490222395,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="confirmBookingTest(TestCase_Confirm_5, Kolkata, 09/24, 09/25, Single-AC, Booking is Confirmed)">confirmBookingTest(TestCase_Confirm_5, Kolkata, 09/24, 09/25, Single-AC, Booking is Confirmed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="confirmBookingTest(TestCase_Confirm_3, Agra, 09/25, 09/26, Single-AC, Booking is Confirmed)">confirmBookingTest(TestCase_Confirm_3, Agra, 09/25, 09/26, Single-AC, Booking is Confirmed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="confirmBookingTest(TestCase_Confirm_1, Agra, 09/24, 09/25, Single-AC, Booking is Confirmed)">confirmBookingTest(TestCase_Confirm_1, Agra, 09/24, 09/25, Single-AC, Booking is Confirmed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="guestTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)">guestTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="guestTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)">guestTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="guestTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)">guestTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="loginTest(TestCase_Login_2, admin, admin, Invalid Credentials !)">loginTest(TestCase_Login_2, admin, admin, Invalid Credentials !)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="loginTest(TestCase_Login_1, Nikhil4, Nikhil@6, Logged in Successfully !)">loginTest(TestCase_Login_1, Nikhil4, Nikhil@6, Logged in Successfully !)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="loginTest(TestCase_Login_3, Nikhil, Nikhil@6, Invalid Credentials !)">loginTest(TestCase_Login_3, Nikhil, Nikhil@6, Invalid Credentials !)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="loginTest(TestCase_Login_4, Nikhil4, Qwerty123, Invalid Credentials !)">loginTest(TestCase_Login_4, Nikhil4, Qwerty123, Invalid Credentials !)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="loginTest(TestCase_Login_5, qwerty, 123456.0, Invalid Credentials !)">loginTest(TestCase_Login_5, qwerty, 123456.0, Invalid Credentials !)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="searchTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)">searchTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="searchTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)">searchTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="signUpTest(TestCase_SignUp_4, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa4, Qwerty#123, Male, 22, 9490222395,...)">signUpTest(TestCase_SignUp_4, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa4, Qwerty#123, Male, 22, 9490222395,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="signUpTest(TestCase_SignUp_2, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa2, Qwerty#123, Male, 22, 9490222395,...)">signUpTest(TestCase_SignUp_2, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa2, Qwerty#123, Male, 22, 9490222395,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="signUpTest(TestCase_SignUp_6, Nikhil Reddy, nikhillllllll24@gmail.com, Aa24444, Qwerty#123, Male, 22, 949022239...)">signUpTest(TestCase_SignUp_6, Nikhil Reddy, nikhillllllll24@gmail.com, Aa24444, Qwerty#123, Male, 22, 949022239...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="signUpTest(TestCase_SignUp_1, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa1, Qwerty#123, Male, 22, 9490222395,...)">signUpTest(TestCase_SignUp_1, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa1, Qwerty#123, Male, 22, 9490222395,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.bookmyroom.testng.BookMyRoomTest" hash-for-method="signUpTest(TestCase_SignUp_3, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa3, Qwerty#123, Male, 22, 9490222395,...)">signUpTest(TestCase_SignUp_3, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa3, Qwerty#123, Male, 22, 9490222395,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookmyroom.testng.BookMyRoomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBookingTest(TestCase_Confirm_4, Chennai, 09/24, 09/26, Single-AC, Booking is Confirmed)">
+                  </a> <!-- confirmBookingTest(TestCase_Confirm_4, Chennai, 09/24, 09/26, Single-AC, Booking is Confirmed) -->
+                  <span class="method-name">confirmBookingTest</span>
+                  <span class="parameters">(TestCase_Confirm_4, Chennai, 09/24, 09/26, Single-AC, Booking is Confirmed)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class=&apos;mat-button-wrapper&apos;] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;G1C2ML15656&apos;, ip: &apos;172.17.124.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:50)
+	at com.bookmyroom.pages.ConfirmBooking.confirmBooking(ConfirmBooking.java:43)
+	at com.bookmyroom.testng.BookMyRoomTest.confirmBookingTest(BookMyRoomTest.java:128)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBookingTest(TestCase_Confirm_2, Mumbai, 09/24, 09/25, Single-AC, Booking is Confirmed)">
+                  </a> <!-- confirmBookingTest(TestCase_Confirm_2, Mumbai, 09/24, 09/25, Single-AC, Booking is Confirmed) -->
+                  <span class="method-name">confirmBookingTest</span>
+                  <span class="parameters">(TestCase_Confirm_2, Mumbai, 09/24, 09/25, Single-AC, Booking is Confirmed)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //mat-grid-tile[1]//div[@id=&apos;bookNow&apos;]//button[@color=&apos;primary&apos;] (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.ConfirmBooking.confirmBooking(ConfirmBooking.java:49)
+	at com.bookmyroom.testng.BookMyRoomTest.confirmBookingTest(BookMyRoomTest.java:128)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //mat-grid-tile[1]//div[@id=&apos;bookNow&apos;]//button[@color=&apos;primary&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;G1C2ML15656&apos;, ip: &apos;172.17.124.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 31 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Courtyard by Marriott)">
+                  </a> <!-- guestTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Courtyard by Marriott) -->
+                  <span class="method-name">guestTest</span>
+                  <span class="parameters">(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Courtyard by Marriott)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.guestSearch(SearchHotels.java:148)
+	at com.bookmyroom.pages.GuestMode.guestSearch(GuestMode.java:45)
+	at com.bookmyroom.testng.BookMyRoomTest.guestTest(BookMyRoomTest.java:149)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)">
+                  </a> <!-- guestTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date) -->
+                  <span class="method-name">guestTest</span>
+                  <span class="parameters">(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.guestSearch(SearchHotels.java:148)
+	at com.bookmyroom.pages.GuestMode.guestSearch(GuestMode.java:45)
+	at com.bookmyroom.testng.BookMyRoomTest.guestTest(BookMyRoomTest.java:149)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)">
+                  </a> <!-- searchTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class=&apos;mat-button-wrapper&apos;] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;G1C2ML15656&apos;, ip: &apos;172.17.124.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:50)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Hotel Bhoomi Residency )">
+                  </a> <!-- searchTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Hotel Bhoomi Residency ) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Hotel Bhoomi Residency )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:82)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)">
+                  </a> <!-- searchTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:82)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(TestCase_SignUp_5, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa5, Qwerty#123, Male, 22, 9490222395,...)">
+                  </a> <!-- signUpTest(TestCase_SignUp_5, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa5, Qwerty#123, Male, 22, 9490222395,...) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(TestCase_SignUp_5, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa5, Qwerty#123, Male, 22, 9490222395, Oops…)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SignUpPage.signUp(SignUpPage.java:89)
+	at com.bookmyroom.testng.BookMyRoomTest.signUpTest(BookMyRoomTest.java:64)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bookmyroom.testng.BookMyRoomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBookingTest(TestCase_Confirm_5, Kolkata, 09/24, 09/25, Single-AC, Booking is Confirmed)">
+                  </a> <!-- confirmBookingTest(TestCase_Confirm_5, Kolkata, 09/24, 09/25, Single-AC, Booking is Confirmed) -->
+                  <span class="method-name">confirmBookingTest</span>
+                  <span class="parameters">(TestCase_Confirm_5, Kolkata, 09/24, 09/25, Single-AC, Booking is Confirmed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBookingTest(TestCase_Confirm_3, Agra, 09/25, 09/26, Single-AC, Booking is Confirmed)">
+                  </a> <!-- confirmBookingTest(TestCase_Confirm_3, Agra, 09/25, 09/26, Single-AC, Booking is Confirmed) -->
+                  <span class="method-name">confirmBookingTest</span>
+                  <span class="parameters">(TestCase_Confirm_3, Agra, 09/25, 09/26, Single-AC, Booking is Confirmed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBookingTest(TestCase_Confirm_1, Agra, 09/24, 09/25, Single-AC, Booking is Confirmed)">
+                  </a> <!-- confirmBookingTest(TestCase_Confirm_1, Agra, 09/24, 09/25, Single-AC, Booking is Confirmed) -->
+                  <span class="method-name">confirmBookingTest</span>
+                  <span class="parameters">(TestCase_Confirm_1, Agra, 09/24, 09/25, Single-AC, Booking is Confirmed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)">
+                  </a> <!-- guestTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name) -->
+                  <span class="method-name">guestTest</span>
+                  <span class="parameters">(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)">
+                  </a> <!-- guestTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same) -->
+                  <span class="method-name">guestTest</span>
+                  <span class="parameters">(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="guestTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)">
+                  </a> <!-- guestTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...) -->
+                  <span class="method-name">guestTest</span>
+                  <span class="parameters">(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(TestCase_Login_2, admin, admin, Invalid Credentials !)">
+                  </a> <!-- loginTest(TestCase_Login_2, admin, admin, Invalid Credentials !) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(TestCase_Login_2, admin, admin, Invalid Credentials !)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(TestCase_Login_1, Nikhil4, Nikhil@6, Logged in Successfully !)">
+                  </a> <!-- loginTest(TestCase_Login_1, Nikhil4, Nikhil@6, Logged in Successfully !) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(TestCase_Login_1, Nikhil4, Nikhil@6, Logged in Successfully !)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(TestCase_Login_3, Nikhil, Nikhil@6, Invalid Credentials !)">
+                  </a> <!-- loginTest(TestCase_Login_3, Nikhil, Nikhil@6, Invalid Credentials !) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(TestCase_Login_3, Nikhil, Nikhil@6, Invalid Credentials !)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(TestCase_Login_4, Nikhil4, Qwerty123, Invalid Credentials !)">
+                  </a> <!-- loginTest(TestCase_Login_4, Nikhil4, Qwerty123, Invalid Credentials !) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(TestCase_Login_4, Nikhil4, Qwerty123, Invalid Credentials !)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(TestCase_Login_5, qwerty, 123456.0, Invalid Credentials !)">
+                  </a> <!-- loginTest(TestCase_Login_5, qwerty, 123456.0, Invalid Credentials !) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(TestCase_Login_5, qwerty, 123456.0, Invalid Credentials !)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)">
+                  </a> <!-- searchTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)">
+                  </a> <!-- searchTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(TestCase_SignUp_4, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa4, Qwerty#123, Male, 22, 9490222395,...)">
+                  </a> <!-- signUpTest(TestCase_SignUp_4, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa4, Qwerty#123, Male, 22, 9490222395,...) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(TestCase_SignUp_4, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa4, Qwerty#123, Male, 22, 9490222395, Oops...)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(TestCase_SignUp_2, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa2, Qwerty#123, Male, 22, 9490222395,...)">
+                  </a> <!-- signUpTest(TestCase_SignUp_2, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa2, Qwerty#123, Male, 22, 9490222395,...) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(TestCase_SignUp_2, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa2, Qwerty#123, Male, 22, 9490222395, Oops...)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(TestCase_SignUp_6, Nikhil Reddy, nikhillllllll24@gmail.com, Aa24444, Qwerty#123, Male, 22, 949022239...)">
+                  </a> <!-- signUpTest(TestCase_SignUp_6, Nikhil Reddy, nikhillllllll24@gmail.com, Aa24444, Qwerty#123, Male, 22, 949022239...) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(TestCase_SignUp_6, Nikhil Reddy, nikhillllllll24@gmail.com, Aa24444, Qwerty#123, Male, 22, 9490222395, Oops...)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(TestCase_SignUp_1, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa1, Qwerty#123, Male, 22, 9490222395,...)">
+                  </a> <!-- signUpTest(TestCase_SignUp_1, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa1, Qwerty#123, Male, 22, 9490222395,...) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(TestCase_SignUp_1, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa1, Qwerty#123, Male, 22, 9490222395, Oops...)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest(TestCase_SignUp_3, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa3, Qwerty#123, Male, 22, 9490222395,...)">
+                  </a> <!-- signUpTest(TestCase_SignUp_3, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa3, Qwerty#123, Male, 22, 9490222395,...) -->
+                  <span class="method-name">signUpTest</span>
+                  <span class="parameters">(TestCase_SignUp_3, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa3, Qwerty#123, Male, 22, 9490222395, Oops...)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\OxygenWorkspace\BMR6\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookmyroom.testng.BookMyRoomTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">User</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">confirmBookingTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">guestTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">signUpTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'confirmBookingTest')
+data.setCell(0, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(0, 3, 5316866);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'confirmBookingTest')
+data.setCell(1, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(1, 3, 2714280);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'confirmBookingTest')
+data.setCell(2, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(2, 3, 54933);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'confirmBookingTest')
+data.setCell(3, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(3, 3, 43278);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchTest')
+data.setCell(4, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(4, 3, 36689);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchTest')
+data.setCell(5, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(5, 3, 36640);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchTest')
+data.setCell(6, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(6, 3, 35612);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchTest')
+data.setCell(7, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(7, 3, 35550);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'confirmBookingTest')
+data.setCell(8, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(8, 3, 33409);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signUpTest')
+data.setCell(9, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(9, 3, 32204);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signUpTest')
+data.setCell(10, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(10, 3, 32142);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signUpTest')
+data.setCell(11, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(11, 3, 31137);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'signUpTest')
+data.setCell(12, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(12, 3, 31124);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'signUpTest')
+data.setCell(13, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(13, 3, 30866);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'signUpTest')
+data.setCell(14, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(14, 3, 30714);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'guestTest')
+data.setCell(15, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(15, 3, 25630);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'guestTest')
+data.setCell(16, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(16, 3, 25122);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'guestTest')
+data.setCell(17, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(17, 3, 24793);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'guestTest')
+data.setCell(18, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(18, 3, 24711);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'guestTest')
+data.setCell(19, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(19, 3, 23379);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginTest')
+data.setCell(20, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(20, 3, 20879);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginTest')
+data.setCell(21, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(21, 3, 20565);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginTest')
+data.setCell(22, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(22, 3, 20434);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginTest')
+data.setCell(23, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(23, 3, 20414);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchTest')
+data.setCell(24, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(24, 3, 18902);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginTest')
+data.setCell(25, 2, 'com.bookmyroom.testng.BookMyRoomTest')
+data.setCell(25, 3, 18298);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 hours</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookmyroom.testng.BookMyRoomTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">confirmBookingTest(TestCase_Confirm_1, Agra, 09/24, 09/25, Single-AC, Booking is Confirmed)</span>
+                <span class="method-start">5521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">confirmBookingTest(TestCase_Confirm_2, Mumbai, 09/24, 09/25, Single-AC, Booking is Confirmed)</span>
+                <span class="method-start">60461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmBookingTest(TestCase_Confirm_3, Agra, 09/25, 09/26, Single-AC, Booking is Confirmed)</span>
+                <span class="method-start">95304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">confirmBookingTest(TestCase_Confirm_4, Chennai, 09/24, 09/26, Single-AC, Booking is Confirmed)</span>
+                <span class="method-start">138583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmBookingTest(TestCase_Confirm_5, Kolkata, 09/24, 09/25, Single-AC, Booking is Confirmed)</span>
+                <span class="method-start">2856966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">guestTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Courtyard by Marriott)</span>
+                <span class="method-start">8173929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">guestTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)</span>
+                <span class="method-start">8200427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">guestTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</span>
+                <span class="method-start">8225221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">guestTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)</span>
+                <span class="method-start">8249933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">guestTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)</span>
+                <span class="method-start">8275564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(TestCase_Login_1, Nikhil4, Nikhil@6, Logged in Successfully !)</span>
+                <span class="method-start">8300458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(TestCase_Login_2, admin, admin, Invalid Credentials !)</span>
+                <span class="method-start">8318757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(TestCase_Login_3, Nikhil, Nikhil@6, Invalid Credentials !)</span>
+                <span class="method-start">8339193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(TestCase_Login_4, Nikhil4, Qwerty123, Invalid Credentials !)</span>
+                <span class="method-start">8359759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(TestCase_Login_5, qwerty, 123456.0, Invalid Credentials !)</span>
+                <span class="method-start">8380639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchTest(TestCase_Search_1, Agra, 09/23, 09/24, Single-AC, Hotel Bhoomi Residency )</span>
+                <span class="method-start">8401141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(TestCase_Search_2, Mumbai, 09/23, 09/24, Single-AC, Please Select Proper City Name)</span>
+                <span class="method-start">8438990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(TestCase_Search_3, Agra, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be same)</span>
+                <span class="method-start">8475680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchTest(TestCase_Search_4, Chennai, 09/23, 09/23, Single-AC, Checkout Date and CheckIn date Should not be sa...)</span>
+                <span class="method-start">8511231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchTest(TestCase_Search_5, Kolkata, 09/24, 09/23, Single-AC, CheckIn Date cannot be prior to CheckOut Date)</span>
+                <span class="method-start">8531107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(TestCase_SignUp_1, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa1, Qwerty#123, Male, 22, 9490222395,...)</span>
+                <span class="method-start">8567806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(TestCase_SignUp_2, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa2, Qwerty#123, Male, 22, 9490222395,...)</span>
+                <span class="method-start">8598673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(TestCase_SignUp_3, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa3, Qwerty#123, Male, 22, 9490222395,...)</span>
+                <span class="method-start">8629799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(TestCase_SignUp_4, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa4, Qwerty#123, Male, 22, 9490222395,...)</span>
+                <span class="method-start">8661943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpTest(TestCase_SignUp_5, Nikhil Reddy, nikhilreddyaileni@gmail.com, Aa5, Qwerty#123, Male, 22, 9490222395,...)</span>
+                <span class="method-start">8694148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpTest(TestCase_SignUp_6, Nikhil Reddy, nikhillllllll24@gmail.com, Aa24444, Qwerty#123, Male, 22, 949022239...)</span>
+                <span class="method-start">8726038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">8756755 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">8757897 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

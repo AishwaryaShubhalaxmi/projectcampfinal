@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 8,766.117 sec <<< FAILURE! - in TestSuite
+confirmBookingTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 34.835 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //mat-grid-tile[1]//div[@id='bookNow']//button[@color='primary'] (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.ConfirmBooking.confirmBooking(ConfirmBooking.java:49)
+	at com.bookmyroom.testng.BookMyRoomTest.confirmBookingTest(BookMyRoomTest.java:128)
+
+confirmBookingTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 2,718.382 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='mat-button-wrapper'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:50)
+	at com.bookmyroom.pages.ConfirmBooking.confirmBooking(ConfirmBooking.java:43)
+	at com.bookmyroom.testng.BookMyRoomTest.confirmBookingTest(BookMyRoomTest.java:128)
+
+guestTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 26.48 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.guestSearch(SearchHotels.java:148)
+	at com.bookmyroom.pages.GuestMode.guestSearch(GuestMode.java:45)
+	at com.bookmyroom.testng.BookMyRoomTest.guestTest(BookMyRoomTest.java:149)
+
+guestTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 24.737 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.guestSearch(SearchHotels.java:148)
+	at com.bookmyroom.pages.GuestMode.guestSearch(GuestMode.java:45)
+	at com.bookmyroom.testng.BookMyRoomTest.guestTest(BookMyRoomTest.java:149)
+
+searchTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 37.839 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:82)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+
+searchTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 19.875 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='mat-button-wrapper'] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'G1C2ML15656', ip: '172.17.124.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\M1047105\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50876}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f5773077eb280e3bc5571b3b5058530e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.bookmyroom.util.Reusable.click(Reusable.java:104)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:50)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+
+searchTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 36.637 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SearchHotels.search(SearchHotels.java:82)
+	at com.bookmyroom.testng.BookMyRoomTest.searchTest(BookMyRoomTest.java:108)
+
+signUpTest(com.bookmyroom.testng.BookMyRoomTest)  Time elapsed: 31.89 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at org.testng.Assert.assertFalse(Assert.java:75)
+	at com.bookmyroom.util.Reusable.verifyPresence(Reusable.java:167)
+	at com.bookmyroom.pages.SignUpPage.signUp(SignUpPage.java:89)
+	at com.bookmyroom.testng.BookMyRoomTest.signUpTest(BookMyRoomTest.java:64)
+
